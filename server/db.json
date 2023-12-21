@@ -1,0 +1,32 @@
+{
+  "users": [
+    {
+      "email": "dafopelufa@mailinator.com",
+      "password": "$2a$10$caQSE6z1H.PY7yFoQfwdpuRfUc./FKY8rqGFQQglLSuDkmRbkdoS2",
+      "firstname": "Elliott",
+      "lastname": "Munoz",
+      "city": "Quam fugiat exceptu",
+      "id": 1
+    }
+  ],
+  "products": [
+    {
+      "marca": "Apple",
+      "modello": "IPhone 15 Plus",
+      "categoria": "Smartphone",
+      "prezzo": "1099",
+      "quantita": "1",
+      "immagine": "https://m.media-amazon.com/images/I/71iMq0samiL._AC_SX522_.jpg",
+      "id": 1
+    },
+    {
+      "marca": "Xiaomi",
+      "modello": "Redmi Note 12",
+      "categoria": "Smartphone",
+      "prezzo": "152",
+      "quantita": "2",
+      "immagine": "https://m.media-amazon.com/images/I/51vxWV2UjxL._AC_SX679_.jpg",
+      "id": 2
+    }
+  ]
+}

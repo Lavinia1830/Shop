@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.min.css">
+    <script src="assets/js/script.js"></script>
+    <title>Pagina Registrazione</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary bg-dark" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Vanilla JS</a>
+            <button 
+                class="navbar-toggler" 
+                type="button"
+                data-bs-toggle="collapse" 
+                data-bs-target="#navbarText" 
+                aria-controls="navbarText"
+                aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                </ul>
+                <span class="navbar-text" id="logNav">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="login.html">Login</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="register.html" >Register</a>
+                        </li>
+                    </ul>
+                </span>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <h1 class="text-center my-5">Register</h1>
+        <div class="card" id="register-page">
+            <form>
+                <div class="card-body">
+                    <div class="mb-3 row">
+                        <label for="firstname" class="col-sm-2 col-form-label">FirstName</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" id="firstname" name="firstname"/>
+                        </div>
+                    </div>
+                    <div class="mb-3 row">
+                        <label for="lastname" class="col-sm-2 col-form-label">LastName</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" id="lastname" name="lastname"/>
+                        </div>
+                    </div>
+                    <div class="mb-3 row">
+                        <label for="city" class="col-sm-2 col-form-label">City</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" id="city" name="city"/>
+                        </div>
+                    </div>
+                    <div class="mb-3 row">
+                        <label for="email" class="col-sm-2 col-form-label">Email</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" id="email" name="email"/>
+                        </div>
+                    </div>
+                    <div class="mb-3 row">
+                        <label for="password" class="col-sm-2 col-form-label">Password</label>
+                        <div class="col-sm-10">
+                            <input type="password" class="form-control" id="password" name="password" />
+                        </div>
+                    </div>
+                    <div class="mb-3 row px-5">
+                        <button type="button" class="btn btn-outline-dark w-100">Register</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

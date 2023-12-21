@@ -1,0 +1,12 @@
+@import "../../node_modules/bootstrap-icons/font/bootstrap-icons.css";
+@import 'override_bootstrap';
+
+/* Custom SCSS */
+
+html {
+    box-sizing: border-box;
+}
+#tableBody tr td img.image{width: 100px;}
+#tableBody tr td.text{
+    padding-top: 50px;
+}

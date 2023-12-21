@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.min.css">
+    <script src="assets/js/script.js"></script>
+    <title>Pagina Admin</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary bg-dark" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Vanilla JS</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+              
+                </ul>
+                <span class="navbar-text" id="logNav">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="login.html">Login</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="register.html">Register</a>
+                        </li>
+                    </ul>
+                </span>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <h1 class="text-center my-5">Admin Page</h1>
+        <div id="formProducts">
+            <div class="row g-3">
+                <div class="col-sm">
+                    <input type="text" class="form-control" id="marca" placeholder="Marca..." aria-label="Marca">
+                </div>
+                <div class="col-sm">
+                    <input type="text" class="form-control" id="modello" placeholder="Modello..." aria-label="Modello">
+                </div>
+                <div class="col-sm">
+                    <input type="text" class="form-control" id="categoria" placeholder="Categoria..." aria-label="Categoria">
+                </div>
+                <div class="col-sm">
+                    <input type="number" class="form-control" id="prezzo" placeholder="Prezzo..." aria-label="Prezzo">
+                </div>
+                <div class="col-sm">
+                    <input type="number" class="form-control" id="quantita" placeholder="Quantità..." aria-label="Quantita">
+                </div>
+                <div class="col-sm">
+                    <input type="text" class="form-control" id="immagine" placeholder="Immagine..." aria-label="Immagine">
+                </div>
+                <div class="col-sm">
+                    <button type="button" class="btn btn-secondary w-100">Add</button>
+                </div>
+            </div>
+            <div class="my-5" id="table-container">
+                <table class="table table-hover ">
+                    <thead>
+                        <tr>
+                            <th scope="col" class="text-center">#</th>
+                            <th scope="col" class="text-center">Immagine</th>
+                            <th scope="col" class="text-center">Modello</th>
+                            <th scope="col" class="text-center">Marca</th>
+                            <th scope="col" class="text-center">Quantità</th>
+                            <th scope="col" class="text-center">Prezzo</th>
+                            <th scope="col" class="text-center"></th>
+                        </tr>
+                    </thead>
+                    <tbody id="tableBody">
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
